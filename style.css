@@ -1,0 +1,162 @@
+.head ul{
+    background-color: navy;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-style:unset;
+    list-style-type:none;
+    padding: 20px;
+}
+.head li{
+    display: inline;
+    margin: 10px 30px;
+    cursor: pointer;
+}
+
+.head li:hover{
+    color: gold;
+}
+
+.Nav-Menu ul{
+    list-style-type: none;
+    background-color: lemonchiffon;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style:unset;
+}
+
+.logo{
+    width: 150px;
+    border-radius: 50%;
+    border: 2px double black;
+    display: inline;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.Nav-Menu li{
+    display: inline;
+    color: black;
+    margin: 30px;
+    vertical-align: middle;
+}
+
+.Nav-Menu li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.content1{
+    background-color: rgb(21, 184, 209);
+    margin: 10px auto;
+    padding: 30px;
+    color: rgb(21, 21, 94);
+}
+
+.content1 h1{
+    text-align: center;
+    color:navy;
+    font-size: 100px;
+}
+
+.container{
+    margin: 20px;
+    display:flex;
+    justify-content: center;
+    font-size:30px;
+}
+
+.box{
+    padding: 20px;
+}
+
+.apply{
+    margin: 10%;
+    padding: 5%;
+    border: 0.5px solid black;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    box-shadow: 10px black;
+}
+
+.apply h1{
+    text-align: center;
+    padding: 0 0 50px 0;
+    font-size: 40px;
+}
+
+.apply p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.apply button{
+    padding: 10px;
+    width: 100px;
+    margin: 0 0 0 45%;
+    border: transparent;
+    border-radius: 50px;
+    background-color:maroon;
+    color: whitesmoke;
+    cursor:pointer;
+    font-size: 15px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.apply button:hover{
+    background-color:teal;
+}
+
+.Footer{
+    background-color: rgb(16, 3, 50);
+    color: white;
+    display: flex;
+    margin: auto;
+    padding:25px 25px 25px 20%;
+    gap: 100px;
+
+}
+
+.Footer h2{
+    margin: 0 0 0 40px;
+}
+
+.Footer ul{
+    list-style-type: none;
+}
+
+.Footer li{
+    padding: 6px;
+    opacity: 0.7;
+}
+
+.Contact{
+    list-style-type: none;
+    margin: 0 0 60px 40px;
+    padding: 5px;
+}
+
+.Contact li{
+    margin: 0 0 0 1px;
+    padding: 10px;
+    justify-content: left;
+}
+
+marquee{
+    list-style-type: none;
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+}
+
+marquee li{
+    padding: 20px;
+    display: inline;
+}
