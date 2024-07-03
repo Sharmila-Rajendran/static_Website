@@ -19,7 +19,7 @@
 
 .Nav-Menu ul{
     list-style-type: none;
-    background-color: white;
+    background-color: brown;
     padding: 20px;
     font-size: 20px;
     font-weight: bold;
@@ -37,13 +37,13 @@
 
 .Nav-Menu li{
     display: inline;
-    color: black;
+    color: white;
     margin: 30px;
     vertical-align: middle;
 }
 
 .Nav-Menu li:hover{
-    color: red;
+    color:yellow;
     cursor: pointer;
 }
 
